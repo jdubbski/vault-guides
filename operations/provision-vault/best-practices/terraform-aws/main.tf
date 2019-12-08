@@ -8,6 +8,7 @@ module "consul_auto_join_instance_role" {
   source = "github.com/hashicorp-modules/consul-auto-join-instance-role-aws"
 
   name = "${var.name}"
+
 }
 
 resource "random_id" "consul_encrypt" {
